@@ -1,0 +1,301 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+                                                    /**HOME**/
+.fas{
+    color: green;
+}
+#logo{
+    color:#072F5F;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#collapseNav{
+    justify-content: end;
+    
+}
+#collapseNav ul li a{
+    margin-right: 25px;
+    font-size: 20px;
+    color: lightgrey;
+    transition: all ease 0.6s;
+    text-align: center;
+}
+#collapseNav ul li a:hover{
+    color: white;
+    background-color: rgb(44, 131, 44);
+    border-radius: 5%;
+}
+.navbar{
+    box-shadow: 0px 0px 10px rgba(80,60,70,0.4);
+    
+}
+#sr{
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 300px;
+    
+}
+.fa-search{
+  color: white;
+  padding-top: 2.5px;
+  margin-right: 2.5px;
+}
+.fa-bars{
+    margin-bottom: 20px;
+}
+#bk-img{
+    margin-right: -100px;
+    margin-top: 10px;
+}
+#content{
+    margin-left: 100px;
+}
+#content h5{
+    color: #28b8b0;
+    font-weight: bold;
+    margin-top: 150px;
+}
+#content h1{
+    color: #072F5F;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+#content p{
+    color: #3d5674;
+}
+#content button{
+    background-color: #072F5F;
+    color: white;
+    padding: 5px 20px;
+}
+
+#indicators li{
+    background-color: #3d5674;
+    padding: 3px 4px;
+    cursor: pointer;
+}
+.fa-chevron-left{
+    color: #3d5674;
+}
+.fa-chevron-right{
+    color: #3d5674;
+}
+
+                                                    /**ABOUT**/
+
+.main{
+    margin-top: 80px;
+}                                                    
+.title1{
+    text-align: center;
+    color: #28b8b0;
+    font-weight: bold;
+    line-height: 10px;
+}
+.title2{
+    text-align: center;
+    color: #072F5F;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#about-content .about-dis-title{
+    color: #072F5F;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#about-content p{
+    color: #3d5674;
+}
+
+
+
+
+
+                                                    /**MENU**/
+
+
+
+.menu-name{
+    color: #072F5F;
+    font-weight: bold;
+    margin-top: 40px;
+}
+#card1{
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,60%);
+    border-radius: 5%;
+}
+#card2{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+    border-radius: 5%;
+}
+#card3{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+    border-radius: 5%;
+}
+#card4{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+    border-radius: 5%;
+}
+.cart-btn:hover{
+    background-color: #072F5F;
+    color: white;
+}
+
+
+.load-btn{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    transition: all ease 0.7s;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.load-btn:hover{
+    background-color: #072F5F;
+
+}
+.load{
+    text-align: center;
+}
+
+
+
+
+
+
+                                                    /**TEAM**/
+ 
+                                                    
+
+.team-main{
+    margin-top: 80px;
+} 
+.team-main .row{
+    margin-left: 50px;
+}
+.fa-quote-left{
+    color: #072F5F;
+    margin-top: -10px;
+    margin-left: 5px;
+}  
+.name{
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
+    line-height: 0px;
+    margin-top: 25px;
+}  
+.dessignation{
+    font-size: 18px;
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+} 
+.card-body p{
+    color: #3d5674;
+}
+
+
+                                                /* BRANDING*/
+
+
+.brand-img{
+    opacity: 0.6;
+    cursor: pointer;
+}  
+.brand-img:hover{
+    opacity: 0.9;
+} 
+
+
+                                                /*FOOTER*/
+
+
+.footer{
+    box-shadow: 0 -5px 5px -5px #333;
+}                                                
+footer{
+    color: #072F5F;
+}
+
+#logo2{
+    color:#072F5F;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.footer-head{
+    color: #072F5F;
+}
+.page-footer a{
+    text-decoration: none;
+    color: #072F5F;
+    font-weight: bold;
+}
+.page-footer a:hover{
+    text-decoration: none;
+    color: green;
+}
+.contact-info{
+    line-height: 10px;
+}
+.contact-info{
+    color: #3d5674;
+}
+.social-icons li{
+    list-style: none;
+}
+.social-icons a{
+    margin-right: 95px;
+}
+.fa-envelope{
+    color: #072F5F;
+}
+.fa-envelope:hover{
+    color: green;
+}
+#footer-copy{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#topBtn{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  cursor: pointer;
+  float: right;
+  display: none;
+} 
